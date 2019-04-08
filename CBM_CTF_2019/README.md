@@ -1,7 +1,7 @@
 Reverse - Hashish (CBM CTF 2019 write-up)
 ===========================================
 
-![rev_hashish](rev_hashish.png)
+![rev_hashish](problem.png)
 
 -----------------------------------------------------------------------------
 # Readme.txt: 
@@ -11,6 +11,7 @@ My friend made a hash algo which he thought was irreversible....however he was o
 so he print something he should not print while making hashes.
 Below is the output of given binary with flag as input... get the flag.
 
+<pre><code>
 hash-0 : 138 
 hash-1 : 512
 hash-2 : 1645 
@@ -34,6 +35,7 @@ hash-19 : 219124720917
 hash-20 : 657374162799 
 hash-21 : 1972122488522
 hash-22 : 5916367465576
+</code></pre>
 
 -----------------------------------------------------------------------------
 
@@ -97,9 +99,10 @@ a2z_result.txt에서 어떤 문자인지 알아낼 때는
 
 # Flag 
 
+<pre><code>
 $ ./hashish
 enter the string
-### cbmctf{w3@k_h4sh_4l60}
+cbmctf{w3@k_h4sh_4l60}
 hash-0 : 138
 hash-1 : 512
 hash-2 : 1645
@@ -123,4 +126,4 @@ hash-19 : 219124720917
 hash-20 : 657374162799
 hash-21 : 1972122488522
 hash-22 : 5916367465576
-
+</code></pre>
