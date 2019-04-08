@@ -65,12 +65,12 @@ int main(int argc, char *argv[])
 </code></pre>
 
 
-### a2z.sh ; 이 코드는 위의 a2z.cpp 코드와 파이프라인 을 이용한 명령어를 86번 반복해서 실행하기 위해서 만들어진 배쉬 쉘 스크립트 코드이다.
+### a2z.sh ; 이 코드는 위의 a2z.cpp 코드와 파이프라인 을 이용한 명령어를 87번 반복해서 실행하기 위해서 만들어진 배쉬 쉘 스크립트 코드이다.
 
 <pre><code>
 #!/bin/bash
 
-for ((i=0; i<86; i++)); do
+for ((i=0; i<87; i++)); do
 	echo
 	echo $i
 	./a2z cbmctf{w3@k_h4sh_4l60} $i | ./hashish
@@ -90,9 +90,9 @@ vi a2z_result.txt       -> a2z_result.txt를 연다
 </code></pre>
 
 a2z_result.txt에서 어떤 문자인지 알아낼 때는 
-!^#$%&*()+-_,./\<>:;=?~@(23) ABCDEFGHIJKLMNOPQRSTUVWXYZ(49) abcdefghijklmnopqrstuvwxyz(75) 0123456789(85)
+!^#$%&*()+-_,./\<>:;=?@{}(24) ABCDEFGHIJKLMNOPQRSTUVWXYZ(50) abcdefghijklmnopqrstuvwxyz(76) 0123456789(86)
 를 참고 한다.
-특수문자는 0~23, 영어 대문자는 ~49, 소문자는 ~75, 숫자는 ~85까지.
+특수문자는 0~24, 영어 대문자는 ~50, 소문자는 ~76, 숫자는 ~86까지.
 
 
 -----------------------------------------------------------------------------
