@@ -90,7 +90,7 @@ vi a2z_result.txt       -> a2z_result.txt를 연다
 </code></pre>
 
 a2z_result.txt에서 어떤 문자인지 알아낼 때는 
-!^#$%&*()+-_,./\<>:;=?@~(23) ABCDEFGHIJKLMNOPQRSTUVWXYZ(49) abcdefghijklmnopqrstuvwxyz(75) 0123456789(85)
+!^#$%&*()+-_,./\<>:;=?~@(23) ABCDEFGHIJKLMNOPQRSTUVWXYZ(49) abcdefghijklmnopqrstuvwxyz(75) 0123456789(85)
 를 참고 한다.
 특수문자는 0~23, 영어 대문자는 ~49, 소문자는 ~75, 숫자는 ~85까지.
 
